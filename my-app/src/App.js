@@ -3,6 +3,7 @@ import Content from './components/Content';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 import NavBarForm from './components/NavBarForm';
 import NavBarSimple from './components/NavBarSimple';
 import NestingComponents from './components/NestingComponents';
@@ -14,7 +15,7 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 function App() {
   return (
     <div className={css.App}> 
-     <LifeCyclesCDM />
+     <LifeCyclesCDU/>
     </div>
   );
 }
