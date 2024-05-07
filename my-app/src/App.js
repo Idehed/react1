@@ -2,6 +2,7 @@ import css from './App.module.css';
 import Content from './components/Content';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 import NavBarForm from './components/NavBarForm';
 import NavBarSimple from './components/NavBarSimple';
 import NestingComponents from './components/NestingComponents';
@@ -13,9 +14,7 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 function App() {
   return (
     <div className={css.App}> 
-     <Sidebar />
-     <NavBarForm />
-     <Content />
+     <LifeCyclesCDM />
     </div>
   );
 }
