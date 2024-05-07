@@ -19,7 +19,9 @@ import UnControlledForm from './components/UnControlledForm';
 function App() {
   return (
     <div className={css.App}> 
-     <SearchBar />
+     <NavBarForm />
+     <Sidebar />
+     <Content />
     </div>
   );
 }
