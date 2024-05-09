@@ -1,6 +1,8 @@
 import css from './App.module.css';
 import Content from './components/Content';
+import ContentHooks from './components/ContentHooks';
 import ControlledForm from './components/ControlledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
@@ -15,13 +17,16 @@ import Sidebar from './components/Sidebar';
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 import UnControlledForm from './components/UnControlledForm';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 function App() {
   return (
     <div className={css.App}> 
-     <NavBarForm />
+     <ContentHooks />
      <Sidebar />
-     <Content />
+     <NavBarForm />
     </div>
   );
 }
